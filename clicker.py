@@ -29,8 +29,8 @@ class MainFrame(tk.Frame): #subclass Frame; MainFrame is now a type of Frame.
 		tk.Frame.__init__(self, master)
 		self.load_modules()
 
-		self.bind('<space>', self.getPos)
-		self.bind('<Escape>', self.quit)
+		master.bind('<space>', self.getPos)
+		master.bind('<Escape>', self.quit)
 
 	def load_modules(self):
 		label_amount = tk.Label(self, text='Clicks: ')
