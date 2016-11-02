@@ -2,4 +2,6 @@
 
 Created by George Beager
 
-# VERSION 0.1
+Uses the pyautogui module. `pip install pyautogui`
+
+Version **0.1**
